@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <link rel="stylesheet" href="portfolio.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="first">
+        <nav>
+            <img src="Screenshot 2023-08-17 224934.jpg" width="200" height="120">
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#about_section">ABOUT</a></li>
+                <li><a href="#">PORTFOLIO</a></li>
+                <li><a href="#">SKILLS</a></li>
+                <li><a href="#">CONTACT US</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="detel">
+        <h1>I'm ANURAG<span>RANJAN</span></h1>
+        <p>This is my official portfolio website to show
+            <br>Details and Skills in Web Development
+        </p>
+        <a href="RxResume_PDFExport_rajdigitalspmgdisha_nikhil-gupta_1687333897.pdf">Download CV</a>
+    </div>
+    <div class="social">
+        <a href="https://www.facebook.com/sid.khurana.5283" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+        <a href="https://www.instagram.com/nik_gupta_19/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://www.linkedin.com/in/nikhil-gupta-358b34260/" target="_blank"><i
+                class="fa-brands fa-linkedin"></i></a>
+        <a href="https://github.com/Nikhil07Gupta" target="_blank"><i class="fa-brands fa-github"></i></a>
+    </div>
+
+    <!-- dusra image ka html file hai -->
+    <!-- <div class="image">
+        <img src="IMG_20221021_132334.jpg">
+    </div> -->
+
+
+    <div class="image1">
+        <img src="WhatsApp Image.jpg">
+    </div>
+
+    <!------about section----->
+
+    <div class="about_section">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <div class="image2"><img src="WhatsApp Image 2.jpg"></div>
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <div class="content">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, quisquam ratione
+                            reiciendis
+                            esse optio eius nulla consequuntur id. Laboriosam beatae consequuntur explicabo dolores
+                            harum
+                            itaque cum nihil quidem, soluta vitae Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. A perferendis voluptatem quae ipsam necessitatibus explicabo quasi architecto harum ad
+                            facilis, dolorum nesciunt. Ducimus, beatae odit velit veniam quae ratione voluptate..</p>
+                        <div class="titles">
+                            <p class="links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="links" onclick="opentab('project')">Project</p>
+                            <p class="links" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-content active-tab" id="skills">
+                            <ul>
+                                <li><span>Web Development</span><br>Beginner level</li>
+                                <li><span>Language Known</span><br>Basic html css Programming language:-
+                                    c,c++,Java,Python and basic javascript</li>
+                                <li><span>Public speaking</span><br>Lead Anchor in college fest</li>
+                            </ul>
+                        </div>
+                        <div class="tab-content" id="project">
+                            <ul>
+                                <li><span>Memory Game</span><br>Using css html and javascript\</li>
+                                <li><span>Various College Project</span><br>Stack Based Text Editor, Wide Area Networks, A Project on K-MAP, Smart City
+                                    Project(using JAVA), Hotel Management System(Using SQL)</li>
+                            </ul>
+                        </div>
+                        <div class="tab-content" id="education">
+                            <ul>
+                                <li><span>Marticulation</span><br>2016 From:HOLY MOTHER ACADMY CGPA:- 8.2</li>
+                                <li><span>Diploma Engineering</span><br>2019-2022 Government Polytechnic ranchi 78.71%</li>
+                                <li><span>B.tech</span><br>2022-2025 CV Raman Global University SGPA - 8.41 (4th Semester)
+                                    2023 -Present </li>
+                            </ul>
+                        </div>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-----------------contact---------------->
+<div class="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-inbox"></i>biganurag15@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>9155861758</p>
+            </div>
+            <div class="contact-right">
+              <form>
+                <input type="text" name="Name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="Message"rows="6" placeholder="Your Message"></textarea>
+                <button type="submit" class="btn btn2">Submit</button>
+              </form>
+            </div>
+        </div>
+    </div>
+</div>
+    
+<script src="new.js"></script>
+</body>
+
+</html>

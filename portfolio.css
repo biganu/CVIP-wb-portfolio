@@ -1,0 +1,284 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color: black;
+
+}
+html{
+    scroll-behavior: smooth;
+}
+
+.first {
+    position: center;
+    width: 100%;
+    height: 80%;
+    background: #212121;
+}
+
+nav {
+    display: flex;
+    width: 100%;
+    margin: auto;
+    padding: 15px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 45px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: red;
+}
+
+.detel {
+    background: black;
+    margin-left: 8%;
+    margin-top: 15%;
+}
+
+.detel h1 {
+    font-size: 55px;
+    color: white;
+    margin-bottom: 30px;
+}
+
+span {
+    color: red;
+
+}
+
+.detel {
+    color: white;
+    line-height: 25px;
+}
+
+.detel a {
+    background-color: white;
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color: red;
+    display: inline-block;
+    margin: 30px 0px;
+    border-radius: 10px;
+}
+
+.shape {
+    width: 350px;
+    height: 350px;
+}
+
+.social {
+    margin-left: 8%;
+    margin-top: 0%;
+}
+
+.social i {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    color:#ff004f;
+    padding: 10px 22px;
+    border-radius: 10px;
+}
+
+
+/* dusra image ka css file hai */
+/* .image img{
+    
+    height: 100%;
+    position: absolute;
+    left: 88%;
+    bottom: 70%;
+} */
+/* .image{
+    width:88.5%;
+    height:80%;
+    position: absolute;
+    object-fit: cover;
+    transition: 0.9s;
+} */
+/* .image:hover{
+    border-radius:40px;
+    filter:opacity(0);
+    transform: rotate(0deg);
+} */
+
+
+
+.image1 {
+    width: 773px;
+    height: 560px;
+    position: absolute;
+    transition: 0.9s;
+}
+
+.image1 img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    position: absolute;
+    left: 833px;
+    bottom: 86%;
+}
+
+/* .image1:hover{
+    transform:scale(0.8);
+    z-index:2;
+    filter:opacity(0);
+    transform: rotate(0deg);
+    } */
+
+/*------about section-----*/
+
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.image2 {
+    width: 490px;
+    height: 490px;
+    position: absolute;
+    flex-basis: 35%;
+}
+
+.about-col-1 img {
+    flex-basis: 33%;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    object-fit: contain;
+    position: absolute;
+    top: 310px;
+}
+
+.about-col-2 {
+    flex-basis: 65%;
+    display: flex;
+    justify-content: space-around;
+    text-align: justify;
+    flex-wrap: wrap;
+    color: red;
+    margin-top: 250px;
+
+}
+
+.sub-title{
+    font-size: 60px;
+    font-weight: 600;
+}
+
+.content {
+    color: white;
+    display: grid;
+}
+
+.titles {
+    display: flex;
+    margin: 17px 0 40px;
+}
+
+.links {
+    margin-right: 50px;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    position: relative;
+}
+
+.links::after {
+    content: '';
+    width: 0;
+    height: 3px;
+    background: red;
+    position: absolute;
+    left: 0;
+    bottom: -8px;
+    transition: 0.5s;
+}
+
+.links.active-link::after {
+    width: 50%;
+}
+
+.tab-content ul li {
+    list-style: none;
+    margin: 10px 0;
+}
+
+.tab-content ul li span {
+    font-size: 15px;
+}
+
+.tab-content {
+    display: none;
+}
+
+.tab-content.active-tab {
+    display: block;
+}
+/* contact me section */
+.contact-left{
+    color:white;
+    flex-basis: 35%;
+    margin-left: 6%;
+}
+.contact-right{
+    flex-basis: 57%;
+}
+.contact-left p{
+    margin-top: 40px;
+}
+.contact-left p i{
+    color:red;
+    margin-right:15px;
+    font-size: 20px;
+}
+.btn{
+    margin: 50px auto;
+    width: fit-content;
+    border: 1px solid red;
+    padding: 14px 50px;
+    border-radius: 6px;
+    text-decoration: none;
+    color: red;
+
+}
+.btn .btn2{
+    display: inline-block;
+    background: red;
+}
+.contact-right form{
+    width: 95%;
+}
+form input,form textarea{
+    width: 95%;
+    border: 0;
+    outline: none;
+    background: #262626;
+    padding: 15px;
+    margin: 15px 0;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 6px;
+}
+form btn{
+padding: 14px 60px;
+font-size: 18px;
+margin-top: 20px;
+}
